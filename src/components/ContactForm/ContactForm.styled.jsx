@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FormStyled = styled.form`
   float: left;
-  margin-right: 30px;
+  margin-right: 45px;
 `;
 
 export const Label = styled.label`
@@ -14,21 +14,21 @@ export const Label = styled.label`
 export const Input = styled.input`
   display: block;
   margin: 0 0 15px 0;
-  padding: 10px;
-  width: 250px;
+  padding: 20px;
+  width: 300px;
   border: 1px solid #ccc;
 `;
 
 export const Button = styled.button`
   cursor: pointer;
-  padding: 10px 30px;
-  background: #f8a035;
+  padding: 15px 50px;
+  background: #f8a069;
   color: #fff;
   border: none;
   border-radius: 4px;
   transition: 250ms;
   &:hover {
-    background: #dd7f0c;
+    background: #aa7f0c;
   }
 `;
 
